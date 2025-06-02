@@ -61,46 +61,39 @@ body, html {
   transform: scale(1.1);
   z-index: 1;
 }
-
+/* 6.반응형  */
 @media (max-width: 768px) {
-  .banner {
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-  }
-
   .banner__contents {
     padding: 20px;
     text-align: center;
   }
 
   .banner__title {
-    font-size: 24px;
+    font-size: 28px;
+    line-height: 1.2;
   }
 
   .banner__description {
     font-size: 14px;
-    line-height: 1.4;
+    margin: 10px 0;
   }
 
   .banner__buttons {
+    display: flex;
     flex-direction: column;
+    gap: 10px;
     align-items: center;
   }
 
   .banner__button {
-    margin: 5px 0;
+    font-size: 14px;
+    padding: 10px 20px;
     width: 80%;
-  }
-
-  .row__posters {
-    display: flex;
-    overflow-x: scroll;
-    padding: 10px;
+    max-width: 300px;
   }
 
   .row__poster {
     max-height: 100px;
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
