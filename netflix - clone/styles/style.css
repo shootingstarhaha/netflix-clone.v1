@@ -61,3 +61,13 @@ body, html {
   transform: scale(1.1);
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .banner {
+    height: 60vh;
+  }
+
+  .row__poster {
+    max-height: 100px;
+  }
+}
