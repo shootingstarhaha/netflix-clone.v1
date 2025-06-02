@@ -11,21 +11,30 @@
 
   <!-- 상단 배경영역 -->
 <!-- index.html -->
-<header class="main-banner">
-  <div class="banner__contents">
-    <img src="assets/icons/netflix-1-logo.svg" class="banner__logo">
+<header
+  style="
+    height: 80vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 70%, rgba(0,0,0,1) 100%),
+                url('assets/squid_game_ver7_xxlg.jpg') center top / 100% auto no-repeat;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  ">
+  <div style="padding: 30px 60px 0 60px; margin: 0;">
+    <img src="assets/icons/netflix-1-logo.svg" style="height: 40px; display: block; margin-bottom: 20px;">
+      <h1 style="margin: 0; font-size: 64px; color: white;">Squid Game</h1>
+    <p style="margin: 10px 0; font-size: 20px; color: white;">게임은 쉽지만, 목숨은 하나뿐.</p>
 
-    <h1 class="banner__title">Squid Game</h1>
-
-    <p class="banner__description">게임은 쉽지만, 목숨은 하나뿐.</p>
-
-    <div class="banner__buttons">
-      <button class="banner__button">▶ Play</button>
-      <button class="banner__button">+ My List</button>
+    <div style="margin-top: 20px;">
+      <button style="padding: 10px 20px; margin-right: 10px;">▶ Play</button>
+      <button style="padding: 10px 20px;">+ My List</button>
     </div>
   </div>
 </header>
-
 
   <!-- 콘텐츠 섹션 -->
  <section style="padding: 0 60px;">
